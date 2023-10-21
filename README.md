@@ -1,5 +1,7 @@
 # Enhancing-Equity
-## [![A Brief!✨](https://img.youtube.com/vi/S5LBA0hNhWM/0.jpg)](https://www.youtube.com/watch?v=S5LBA0hNhWM)
+
+## A Brief!✨
+## [![✨](https://img.youtube.com/vi/S5LBA0hNhWM/0.jpg)](https://www.youtube.com/watch?v=S5LBA0hNhWM)
 
 This project aims to empower individuals, organizations, and authorities with the tool that is capable of detecting and classifying discriminatory content. The project combines technology, awareness and support to tackle discrimination and its negative effect on mental health
 
