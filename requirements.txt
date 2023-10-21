@@ -1,0 +1,7 @@
+flask
+seaborn
+numpy
+pandas 
+wordcloud
+nltk
+sklearn
