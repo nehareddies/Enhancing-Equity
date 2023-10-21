@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="form">
+                <div class="left-side">
+                    <div class="left-heading"></div>
+                    <div class="steps-content">
+                        <h1>Enhancing Equity</h1><br><br>
+                        <p class="step-number-content active">A project that aims to enhance equality by identifying texts which show discrimination - Appearance, Gender and Social Class.</p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="main active">
+                        <div class="text">
+                            <h2>Enhancing Equity</h2>
+                            <p>Enhancing Equality by Predicting Discriminatory text</p>
+                        </div>
+                        
+                        <form action="/predict" method="POST">
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <span><b>Text to be predicted :</b></span><br><br>
+                                    <textarea class="wideInput" name="text" cols="60" rows="8"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="buttons">
+                                <button class="next_button" type="submit">Predict</button>
+                            </div>
+                        </form>
+                        <br>
+                        <h3 class="res"><b>{{ result }}</b></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
