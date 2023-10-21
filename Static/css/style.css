@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: system-ui;
+    padding:0;
+    margin:0;
+}
+h2
+{
+    color: #004289
+}
+.container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#eee;
+}
+.container .card{
+    height:500px;
+    width:800px;
+    background-color:#fff;
+    position:relative;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+    border-radius:20px;
+}
+.container .card .form{
+    width:100%;
+    height:100%;
+    
+    display:flex;
+}
+.container .card .left-side{
+    width:35%;
+    background-color:#213d81;
+    height:100%;
+ border-top-left-radius:20px;
+ border-bottom-left-radius:20px;
+  padding:20px 30px;
+  box-sizing:border-box;
+
+}
+/*left-side-start*/
+.left-heading{
+    color:#fff;
+   
+}
+.steps-content{
+    margin-top:30px;
+    color:#fff;
+}
+.steps-content p{
+    font-size:20px;
+    margin-top:15px;
+}
+
+/*left-side-end*/
+.container .card .right-side{
+    width:65%;
+    background-color:#fff;
+    height:100%;
+  border-radius:20px;
+}
+/*right-side-start*/
+
+.main{
+    padding:40px;
+}
+
+.text{
+    margin-top:20px;
+}
+.text p{
+    margin-top:10px;
+    font-size:13px;
+    font-weight:700;
+    color:#cbced4;
+}
+.input-text{
+    margin:30px 0;
+     display:flex;
+    gap:100px;
+    color: #333;
+}
+
+.input-text .input-div{
+    width:100%;
+    position:relative;
+    
+}
+
+input[type="text"]{
+    width:100%;
+    height:40px;
+    border:none;
+    outline:0;
+    border-radius:5px;
+    border:2px solid #ddd;
+    gap:20px;
+    box-sizing:border-box;
+    padding:0px 10px;
+}
+.input-text .input-div span{
+    position:absolute;
+    left:2px;
+    font-size:15px;
+    color : #213d81;
+    transition:all 0.5s;
+}
+
+.wideInput{
+    padding-left : 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.input-div input:focus ~ span,.input-div input:valid ~ span  {
+    top:-10px;
+    left:6px;
+    font-size:10px;
+    font-weight:600; 
+}
+.buttons button{
+    height:40px;
+    width:100px;
+    border:none;
+    border-radius:5px;
+    background-color:#0075ff;
+    font-size:14px;
+    color:#fff;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.button_space{
+    display:flex;
+    gap:20px;
+    
+}
+
+.res {
+	color :#004289;
+	text-align:center;
+    font-weight : bold;
+}
